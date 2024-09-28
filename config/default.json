@@ -17,7 +17,7 @@
         "database": "notes_app_node",
         "username": "admin",
         "password": "8428577125Gg",
-        "host": "localhost",
+        "host": "note-instance.cz2seu4e4aqd.eu-north-1.rds.amazonaws.com",
         "dialect": "mysql"
     }
 }

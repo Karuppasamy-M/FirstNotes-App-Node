@@ -33,8 +33,8 @@ export class Server {
     this.app.get('/db/alter', async (req: any, res: any) => {
       console.log(req.params);
       /// Database sync : 
-      //sequelize.sync({ }).then((result: any) => { console.log(result); }) // force :true --delete all data in tabeles.
-      sequelize.sync({ alter: true }).then((result: any) => { console.log(result); })
+      sequelize.sync({}).then((result: any) => { console.log(result); }) // force :true --delete all data in tabeles.
+      // sequelize.sync({ alter: true }).then((result: any) => { console.log(result); })
       // .catch((err: Error) => { console.log("err...", err); });
     });
 
