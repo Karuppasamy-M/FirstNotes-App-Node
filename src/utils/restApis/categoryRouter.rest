@@ -1,0 +1,40 @@
+
+Get https://localhost:3000/category/getAll
+Content-Type: application/json
+
+###
+
+POST https://localhost:3000/category/create
+Content-Type: application/json
+
+
+{
+    "user_id" : 5,
+    "category_name" : "Node"
+}
+
+###
+PUT https://localhost:3000/category/update
+Content-Type: application/json
+
+{
+    "user_id" : 5,
+    "category_name" : "Node"
+}
+
+###
+DELETE https://localhost:3000/category/delete
+Content-Type: application/json
+Custom-Header: CustomValue
+
+{
+  "user_id": 5,
+
+}
+
+
+{
+    "user_name" : "surya",
+    "password" : "1234567",
+    "mobile_number" : "1234567894"
+}

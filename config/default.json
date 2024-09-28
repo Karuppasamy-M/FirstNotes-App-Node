@@ -1,0 +1,23 @@
+{
+    "production": {
+        "database": "",
+        "username": "",
+        "password": "",
+        "host": "",
+        "dialect": ""
+    },
+    "devlopment": {
+        "database": "",
+        "username": "",
+        "password": "",
+        "host": "",
+        "dialect": ""
+    },
+    "test": {
+        "database": "notes_app_node",
+        "username": "admin",
+        "password": "8428577125Gg",
+        "host": "localhost",
+        "dialect": "mysql"
+    }
+}

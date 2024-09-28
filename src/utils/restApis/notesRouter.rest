@@ -1,0 +1,56 @@
+
+Get https://localhost:7000/notes/getAll?sub_category_id=1&page_number=1
+Content-Type: application/json
+
+{
+   "user_id" : 1
+}
+
+###
+POST https://localhost:3000/notes/create
+Content-Type: application/json
+
+{
+   "user_id":5,
+   "category_id": 1,
+   "title": "Flutter Intro",
+   "content": "This cookbook contains recipes that demonstrate how to solve common problems while writing Flutter apps. Each recipe is self-contained and can be used as a reference to help you build up an application. ",
+   "attachments": "https://docs.flutter.dev/cookbook",
+   "description": "about flutter cook book.",
+   "label": "Mobile App Development",
+   "notecolor" : "redColor"
+}
+
+
+###
+
+PUT https://localhost:3000/notes/update
+Content-Type: application/json
+
+{
+   "user_id":5,
+   "title": "Flutter Intro",
+   "content": "This cookbook contains recipes that demonstrate how to solve common problems while writing Flutter apps. Each recipe is self-contained and can be used as a reference to help you build up an application. ",
+   "category_id": 1,
+   "attachments": "https://docs.flutter.dev/cookbook",
+   "description": "about flutter cook book.",
+   "label": "Mobile App Development",
+   "notecolor" : "redColor"
+}
+
+
+###
+
+DELETE https://localhost:3000/notes/delete
+Content-Type: application/json
+
+
+{
+    "user_name" : "surya",
+    "password" : "1234567",
+    "mobile_number" : "1234567894"
+}
+
+
+
+
