@@ -39,7 +39,7 @@ export class Server {
     });
 
     this.app.post('/connection/check', async (req: any, res: any) => {
-      res.send({ "status": "connected" });
+      res.send({ "status": "connected new" });
     });
     /// Temporary testing routes --end
 
