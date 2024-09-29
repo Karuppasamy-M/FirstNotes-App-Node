@@ -12,6 +12,8 @@ class AuthService {
 
     public signup(req: Request, callback: Function) {
 
+        console.log("Signup Api");
+
         const data: any = req.body;
         const token = jwt.sign({ userId: 1 }, constants.jwtKey.secretKey, { algorithm: 'HS512' });
         data.token = token;
